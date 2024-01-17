@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background: url(./cosmos-fleurs-beaute.jpg) top / cover no-repeat;
+
+  font-weight: bold;
+  font-size: 1.2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background: rgba(194, 160, 226, 0.253);
+  backdrop-filter: blur(12px);
+  width: 470px;
+  height: 700px;
+  padding: 30px 90px;
+  border-radius: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input {
+  display: block;
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 50px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 18px;
+  padding: 5px;
+}
+input[type="submit"] {
+  border-radius: 50px;
+  width: 70%;
+  margin: auto;
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.pseudo-container {
+  padding-bottom: 10px;
+}
+
+.email-container {
+  padding-bottom: 0px;
+}
+
+.password-container {
+  padding-bottom: 20px;
+}
+
+.confirm-container {
+  padding-bottom: 40px;
+}
+p {
+  background: red;
+  width: 33%;
+  height: 6px;
+  margin: 4px 2px;
+  border-radius: 50px;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+span {
+  margin-top: 3px;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 0.85rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.error input {
+  color: red;
+  border: 1px solid rgba(255, 0, 0, 0.527);
+}
+.error span {
+  visibility: visible;
+  opacity: 1;
+  color: red;
+}
+
+.progressRed {
+  background: red;
+  width: 33%;
+  visibility: visible;
+}
+.progressYellow {
+  background: #e1ca54;
+  width: 67%;
+  visibility: visible;
+}
+.progressGreen {
+  width: 100%;
+  background: #5ef9a4;
+  visibility: visible;
+}

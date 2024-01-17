@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sexy Form</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="shortcut icon" href="./cosmos-fleurs-beaute.jpg" />
+  </head>
+
+  <body>
+    <form action="">
+      <div class="box" id="box">
+        <h1>Sign up</h1>
+        <div class="pseudo-container">
+          <label for="pseudo">Pseudo</label>
+          <input type="text" autocomplete="off" id="pseudo" />
+          <span></span>
+        </div>
+        <div class="email-container">
+          <label for="email">Email</label>
+          <input type="text" autocomplete="off" id="email" />
+          <span>Incorrect Email</span>
+        </div>
+        <div class="password-container">
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+          <p id="progress-bar"></p>
+          <span></span>
+        </div>
+        <div class="confirm-container">
+          <label for="confirm">Confirm password</label>
+          <input type="password" id="confirm" />
+          <span></span>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Submit" />
+          <span></span>
+        </div>
+      </div>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
